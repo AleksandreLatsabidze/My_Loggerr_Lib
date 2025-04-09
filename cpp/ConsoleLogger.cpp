@@ -1,4 +1,4 @@
-#include "ConsoleLogger.h"
+#include "cpp/ConsoleLogger.h"
 
 void ConsoleLogger::print(LoggingLevel level, std::string message)
 {
