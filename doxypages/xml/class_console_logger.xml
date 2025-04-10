@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_console_logger" kind="class" language="C++" prot="public">
+    <compoundname>ConsoleLogger</compoundname>
+    <includes refid="_console_logger_8h" local="no">ConsoleLogger.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_console_logger_1a13ad9de765c4cf18ed9e78b3e4fc7559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConsoleLogger::print</definition>
+        <argsstring>(LoggingLevel level, std::string message)</argsstring>
+        <name>print</name>
+        <qualifiedname>ConsoleLogger::print</qualifiedname>
+        <param>
+          <type>LoggingLevel</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printLoggingLevel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This is a printout LoggingLevel line which will prints a message to the console. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>If the message is empty, return another value.</para>
+<para>If the message is empty, return another value.</para>
+<para>Determine the logging level</para>
+        </inbodydescription>
+        <location file="ConsoleLogger.h" line="22" column="10" bodyfile="ConsoleLogger.cpp" bodystart="3" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>generic logger class,which will print something to the console <simplesect kind="author"><para>AleksandreLatsabidze </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="ConsoleLogger.h" line="15" column="1" bodyfile="ConsoleLogger.h" bodystart="16" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_console_logger_1a13ad9de765c4cf18ed9e78b3e4fc7559" prot="public" virt="non-virtual"><scope>ConsoleLogger</scope><name>print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

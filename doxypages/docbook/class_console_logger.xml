@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_console_logger" xml:lang="en-US">
+<title>ConsoleLogger Class Reference</title>
+<indexterm><primary>ConsoleLogger</primary></indexterm>
+<para>
+<computeroutput>#include &lt;ConsoleLogger.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_console_logger_1a13ad9de765c4cf18ed9e78b3e4fc7559">print</link> (LoggingLevel level, std::string message)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>generic logger class,which will print something to the console <formalpara><title>Author</title>
+
+<para>AleksandreLatsabidze </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_console_logger_1a13ad9de765c4cf18ed9e78b3e4fc7559"/><section>
+    <title>print()</title>
+<indexterm><primary>print</primary><secondary>ConsoleLogger</secondary></indexterm>
+<indexterm><primary>ConsoleLogger</primary><secondary>print</secondary></indexterm>
+<para><computeroutput>void ConsoleLogger::print (LoggingLevel level, std::string message)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>printLoggingLevel</entry><entry>
+<para>This is a printout LoggingLevel line which will prints a message to the console. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>If the message is empty, return another value.</para>
+
+<para>If the message is empty, return another value.</para>
+
+<para>Determine the logging level</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+ConsoleLogger.hConsoleLogger.cpp</section>
+</section>

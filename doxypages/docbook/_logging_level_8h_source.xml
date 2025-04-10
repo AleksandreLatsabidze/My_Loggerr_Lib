@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__logging_level_8h_source" xml:lang="en-US">
+<title>LoggingLevel.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;H_LOGGING_LEVEL</emphasis>
+2 <emphasis role="preprocessor">#define&#32;H_LOGGING_LEVEL</emphasis>
+3 
+4 <emphasis role="comment">/*&#32;this&#32;enum&#32;contains&#32;logging&#32;level&#32;constants</emphasis>
+5 <emphasis role="comment">@author&#32;AleksandreLatsabidze&#32;&#32;&#32;&#32;</emphasis>
+6 <emphasis role="comment">*/</emphasis>
+7 <emphasis role="keyword">enum</emphasis>&#32;LoggingLevel
+8 {
+9 &#32;&#32;&#32;&#32;DEBUG,
+10 &#32;&#32;&#32;&#32;INFO,
+11 &#32;&#32;&#32;&#32;ERROR,
+12 &#32;&#32;&#32;&#32;WARNING
+13 };
+14 
+15 <emphasis role="preprocessor">#endif</emphasis>
+</programlisting></section>

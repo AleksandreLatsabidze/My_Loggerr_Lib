@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__console_logger_8h_source" xml:lang="en-US">
+<title>ConsoleLogger.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;H_CONSOLE_LOGGER</emphasis>
+2 <emphasis role="preprocessor">#define&#32;H_CONSOLE_LOGGER</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+6 <emphasis role="preprocessor">#include&#32;&lt;stdexcept&gt;</emphasis>
+7 
+8 <emphasis role="preprocessor">#include&#32;&quot;LoggingLevel.h&quot;</emphasis>
+9 
+10 
+15 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_console_logger">ConsoleLogger</link>
+16 {
+17 <emphasis role="keyword">public</emphasis>:
+22 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_console_logger_1a13ad9de765c4cf18ed9e78b3e4fc7559">print</link>(LoggingLevel&#32;level,&#32;std::string&#32;message);
+23 };
+24 
+25 <emphasis role="preprocessor">#endif&#32;</emphasis>
+</programlisting></section>
