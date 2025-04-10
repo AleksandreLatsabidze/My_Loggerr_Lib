@@ -1,16 +1,25 @@
 #include "ConsoleLogger.h"
 
 void ConsoleLogger::print(LoggingLevel level, std::string message)
-{
+{    /**
+    If the message is empty, return another value.
+    */
     if (message.empty())
     {
         throw std::invalid_argument("ცარიელი არ შეიძლება იყოს");
     }
+    /**
+    If the message is empty, return another value.
+     */
     if (message == "null")
     {
         throw std::invalid_argument("არ შეიძლება იყოს 'null'");
     }
 
+
+    /**
+    Determine the logging level
+    */
     std::string levelStr;
     switch (level)
     {

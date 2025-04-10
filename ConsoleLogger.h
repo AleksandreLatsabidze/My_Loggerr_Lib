@@ -9,13 +9,15 @@
 
 
 /**
- * this is a class for outputting to the console
+ * generic logger class,which will print something to the console
+ @author AleksandreLatsabidze
  */
 class ConsoleLogger
 {
 public:
     /**
-     * this is a printout LoggingLevel line
+    @param printLoggingLevel
+     *This is a printout LoggingLevel line which will prints a message to the console.
      */
     void print(LoggingLevel level, std::string message);
 };
